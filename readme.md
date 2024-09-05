@@ -1,7 +1,7 @@
 # Powersaj's Dungeons Features
-Mod that takes inspiration from, and intends to implement features from, the game Minecraft Dungeons.
+Porting fundamental gameplay features from Minecraft Dungeons.
 
-## Changes From Vanilla (So far)
+## Implemented Changes
 - Player movement speed increased. *[¹ Code](src/client/java/powersaj/dungeonsfeatures/function/playerSpeed.java), [² Player Speed Reference](https://youtu.be/QreqqKleLpw?si=kgIs19TJzEAG4B8z)*
 - All entities auto-step to one block tall. *[¹ Code](src/client/java/powersaj/dungeonsfeatures/mixin/client/LivingEntityMixin.java), [² Step Snap Height Reference](https://youtu.be/QreqqKleLpw?si=kgIs19TJzEAG4B8z)*
 
