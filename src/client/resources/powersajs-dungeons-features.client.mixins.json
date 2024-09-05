@@ -1,12 +1,14 @@
 {
-	"required": true,
-	"package": "powersaj.dungeonsfeatures.mixin.client",
-	"compatibilityLevel": "JAVA_21",
-	"client": [],
-	"injectors": {
-		"defaultRequire": 1
-	},
-	"mixins": [
-		"LivingEntityMixin"
+  "required": true,
+  "package": "powersaj.dungeonsfeatures.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "CameraMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "LivingEntityMixin"
 	]
 }

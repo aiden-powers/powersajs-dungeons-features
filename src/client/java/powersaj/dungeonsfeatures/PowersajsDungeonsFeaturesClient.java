@@ -10,6 +10,7 @@ public class PowersajsDungeonsFeaturesClient implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
 		ClientTickEvents.END_CLIENT_TICK.register(playerSpeed::updatePlayerSpeed);
+		ClientTickEvents.END_CLIENT_TICK.register(EveryTick::everyTick);
 		HudRenderCallback.EVENT.register(debugHud::debugHudRender);
 	}
 }
