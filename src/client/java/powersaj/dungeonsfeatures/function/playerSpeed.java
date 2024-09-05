@@ -7,6 +7,9 @@ import powersaj.dungeonsfeatures.DungeonsFeaturesValues;
 
 import java.util.Objects;
 
+/**
+ * Class that holds functionality for client player speed.
+ */
 public class playerSpeed {
     /**
      * @param player The player object to change the speed of

@@ -9,7 +9,6 @@ import powersaj.dungeonsfeatures.DungeonsFeaturesValues;
 
 @Mixin(LivingEntity.class)
 public class LivingEntityMixin {
-
     @Inject(method = "getStepHeight", at = @At("HEAD"), cancellable = true)
     private void replaceGetStepHeight(CallbackInfoReturnable<Float> cir) {
         Float entityStepHeight = DungeonsFeaturesValues.entityStepHeight;
