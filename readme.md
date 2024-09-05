@@ -2,10 +2,12 @@
 Porting fundamental gameplay features from Minecraft Dungeons.
 
 ## Implemented Changes
+*Most references are redirects to a video of the [1.0 walkthrough video](https://youtu.be/QreqqKleLpw?si=kgIs19TJzEAG4B8z)*
+
 - Player movement speed increased.
-  - *[¹ Code](src/client/java/powersaj/dungeonsfeatures/function/playerSpeed.java), [² Player Speed Reference](https://youtu.be/QreqqKleLpw?si=kgIs19TJzEAG4B8z)*
+  - *[¹ Code](src/client/java/powersaj/dungeonsfeatures/function/playerSpeed.java), [² Reference](https://youtu.be/QreqqKleLpw?si=kgIs19TJzEAG4B8z)*
 - All entities auto-step to one block tall. 
-  - *[¹ Code](src/client/java/powersaj/dungeonsfeatures/mixin/client/LivingEntityMixin.java), [² Step Snap Height Reference](https://youtu.be/QreqqKleLpw?si=kgIs19TJzEAG4B8z)*
+  - *[¹ Code](src/client/java/powersaj/dungeonsfeatures/mixin/client/LivingEntityMixin.java), [² Reference](https://youtu.be/QreqqKleLpw?si=kgIs19TJzEAG4B8z)*
 
 ## System Design
 ### Mixins Accessing Outside Variables?
